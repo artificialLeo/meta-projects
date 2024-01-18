@@ -19,4 +19,5 @@ public class Counter {
         logger.info(String.format(MESSAGE,
                 "After decrementing", Thread.currentThread().getName(), value));
     }
+
 }
